@@ -864,7 +864,7 @@ var definePinchZoom = function () {
             if(target.enabled) {
                 firstMove = true;
                 fingers = event.touches.length;
-                detectDoubleTap(event);
+                // detectDoubleTap(event);
             }
         }, { passive: false });
 
